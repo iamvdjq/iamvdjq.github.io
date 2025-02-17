@@ -19,13 +19,13 @@ export default function Navbar() {
     }`}>
       <Container>
         <div className="flex items-center justify-between h-16">
-          <span className="text-2xl font-bold text-white">
+          <Link href="/" className="text-2xl font-bold text-white">
             vdjq
-          </span>
+          </Link>
           
           <div className="hidden md:flex space-x-8">
-            <NavLink href="/#about">About</NavLink>
-            <NavLink href="/#skills">Skills</NavLink>
+            <NavLink href="/about">About</NavLink>
+            <NavLink href="/skills">Skills</NavLink>
             <NavLink href="/contact">Contact</NavLink>
           </div>
         </div>
