@@ -7,8 +7,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
-  // Add this to handle static assets
-  assetPrefix: '.', // Simplify this for user/organization sites
+  // Update this section
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
   trailingSlash: true,
 }
 
