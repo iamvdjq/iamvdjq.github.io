@@ -3,12 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: 'export',  // Enable static exports
-  basePath: process.env.NODE_ENV === 'production' ? '/iamvdjq.github.io' : '', // Update this
+  basePath: '', // Remove the basePath for user/organization sites
   images: {
     unoptimized: true, // Required for static export
   },
   // Add this to handle static assets
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/iamvdjq.github.io' : '', // Update this
+  assetPrefix: '.', // Simplify this for user/organization sites
 }
 
 module.exports = nextConfig 

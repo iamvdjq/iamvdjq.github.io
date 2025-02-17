@@ -6,7 +6,6 @@ import Link from 'next/link'
 
 export default function Hero() {
   const router = useRouter()
-  const basePath = process.env.NODE_ENV === 'production' ? '/iamvdjq.github.io' : ''
 
   return (
     <div className="relative min-h-screen flex items-center bg-black overflow-hidden">
