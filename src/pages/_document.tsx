@@ -6,17 +6,17 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Modern web solutions with cutting-edge technology" />
+        <meta name="description" content="VDJQS WEBSITE" />
         
         {/* Favicon */}
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="https://cdn.discordapp.com/avatars/1097623892736081992/2f25f227b6ad6e60129f0d30a78464ba.png" href="/favicon.png" />
         
         {/* Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
         
-        <title>Modern Web Solutions</title>
+        <title>VDJQ</title>
       </Head>
       <body>
         <Main />
