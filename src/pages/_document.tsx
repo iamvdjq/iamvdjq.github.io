@@ -9,7 +9,11 @@ export default function Document() {
         <meta name="description" content="VDJQS WEBSITE" />
         
         {/* Favicon */}
-        <link rel="icon" type="https://cdn.discordapp.com/avatars/1097623892736081992/2f25f227b6ad6e60129f0d30a78464ba.png" href="/favicon.png" />
+        <link 
+          rel="icon" 
+          type="image/png" 
+          href="https://cdn.discordapp.com/avatars/1097623892736081992/2f25f227b6ad6e60129f0d30a78464ba.png" 
+        />
         
         {/* Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
