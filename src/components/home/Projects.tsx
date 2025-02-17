@@ -7,7 +7,7 @@ const projects = [
     title: 'Krypton',
     description: 'A website built for selling Fortnite accounts, over 1,000 active users.',
     image: 'https://cdn.discordapp.com/banners/1289622222989824053/a_ddda7f376a300324bd09d6424c77878e.gif?size=240', // You'll need to add this image to your public/images folder
-    tags: ['Next.js', 'Tailwind CSS', 'Discord Integration'],
+    tags: ['SQL', '(BASIC) HTML CSS', 'Discord Integration'],
     liveUrl: 'https://krypt0n.net',
     discordUrl: 'https://discord.gg/dmas',
   }
