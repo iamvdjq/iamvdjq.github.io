@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Container from './Container'
+import Link from 'next/link'
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -35,11 +36,11 @@ export default function Navbar() {
 
 function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
-    <a 
+    <Link 
       href={href}
       className="text-gray-400 hover:text-white transition-colors duration-200"
     >
       {children}
-    </a>
+    </Link>
   )
 } 

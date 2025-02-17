@@ -9,6 +9,7 @@ const nextConfig = {
   },
   // Add this to handle static assets
   assetPrefix: '.', // Simplify this for user/organization sites
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 
